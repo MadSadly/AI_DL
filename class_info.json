@@ -1,0 +1,15 @@
+{
+  "class_indices": {
+    "bad_weld": 0,
+    "blowhole": 1,
+    "good": 2
+  },
+  "class_kor": {
+    "bad_weld": "용접불량",
+    "blowhole": "블로우홀",
+    "good": "양품"
+  },
+  "img_size": 224,
+  "best_model": "EfficientNetV2B0",
+  "val_accuracy": 0.9900000095367432
+}
