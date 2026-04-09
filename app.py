@@ -160,7 +160,6 @@ with tab1:
                     uploaded = open(os.path.join(p, files[0]), 'rb')
                     st.info(f"예시: {class_kor.get(example_cls)} ({files[0]})")
                     break
-
     if uploaded:
         st.divider()
         image_pil = Image.open(uploaded)
